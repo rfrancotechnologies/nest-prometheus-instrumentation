@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>test_nest_prometheus_instrumentation</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <!--<PackageReference Include="Com.RFranco.Nest.Instrumentation" Version="1.0.0"/>    -->
+    <ProjectReference Include ="../nest-prometheus-instrumentation/nest-prometheus-instrumentation.csproj"/>
+  </ItemGroup>
+
+
+</Project>
